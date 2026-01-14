@@ -6,7 +6,7 @@ Model performans grafikleri.
 
 import numpy as np
 import pandas as pd
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Tuple
 from pathlib import Path
 import logging
 
