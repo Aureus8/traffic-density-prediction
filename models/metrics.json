@@ -1,0 +1,79 @@
+{
+  "naive": {
+    "model_name": "Naive",
+    "mape": 6.2375,
+    "rmse": 2.1581,
+    "mae": 1.5725,
+    "r2": 0.8264
+  },
+  "moving_average": {
+    "model_name": "MovingAverage",
+    "mape": 17.7916,
+    "rmse": 5.1216,
+    "mae": 4.4636,
+    "r2": 0.0221
+  },
+  "arima": {
+    "model_name": "ARIMA",
+    "mape": 21.5623,
+    "rmse": 5.9397,
+    "mae": 4.885,
+    "r2": -0.3152
+  },
+  "sarimax": {
+    "model_name": "SARIMAX",
+    "mape": 22.2379,
+    "rmse": 6.1541,
+    "mae": 5.014,
+    "r2": -0.4119
+  },
+  "lstm": {
+    "model_name": "LSTM",
+    "mape": 35.3239,
+    "rmse": 10.1203,
+    "mae": 8.1728,
+    "r2": -2.8182
+  },
+  "naive_test": {
+    "model_name": "naive (test)",
+    "mape": 6.6523,
+    "rmse": 2.3478,
+    "mae": 1.6923,
+    "r2": 0.8431
+  },
+  "moving_average_test": {
+    "model_name": "moving_average (test)",
+    "mape": 17.0186,
+    "rmse": 5.1689,
+    "mae": 4.3526,
+    "r2": 0.2396
+  },
+  "arima_test": {
+    "model_name": "arima (test)",
+    "mape": 25.1107,
+    "rmse": 6.811,
+    "mae": 5.8127,
+    "r2": -0.3203
+  },
+  "sarimax_test": {
+    "model_name": "sarimax (test)",
+    "mape": 100.0,
+    "rmse": 27.8246,
+    "mae": 27.1859,
+    "r2": -21.0347
+  },
+  "lstm_test": {
+    "model_name": "lstm (test)",
+    "mape": 40.4496,
+    "rmse": 11.1757,
+    "mae": 9.4274,
+    "r2": -2.5547
+  },
+  "ensemble_test": {
+    "model_name": "Ensemble (test) [Naive:90%, MA(w=24):10%]",
+    "mape": 6.78,
+    "rmse": 2.3012,
+    "mae": 1.7304,
+    "r2": 0.8493
+  }
+}
